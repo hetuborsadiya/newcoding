@@ -1,17 +1,115 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-body {
-  background-color: lightblue;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="header.css">
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0px;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgb(9, 10, 11);
+    }
+
+li{
+  float: left;
 }
-</style>
+
+li a {
+  display: block;
+  margin: 1px;
+  color: rgb(236, 236, 247);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #6ccf6c;
+}
+  </style>
 </head>
 <body>
+  <div class="header nav">
+    <ul>
+    <li><a  class="active" href="#logo">logo</a></li>
+    <li><a href="#home">home</a></li>
+    <li><a href="#about">about</a></li>
+    <li><a href="#products">products</a></li>
+    <li><a href="#services">services</a></li>
+</ul>
+    <div class="header input">
+      <form action="#">
+      <input type="text" 
+      name="search">
+    </form>
+      <button>
+        <input class="header button" placeholder="search" >
+      </button>
+    </div>
+</div>
 
-<h1>Hello World!</h1>
+<div class="hero">
+  <h1>Dramatically Engage</h1>
+  <p>Objectively innovate empowered manufactured products</p>
+  <button>Engage Now</button>
+</div>
 
-<p>This page has a light blue background color!</p>
+
+<div class="section">
+  <h2> Superior Collaboration</h2>
+  <p>Visualize quality intellectual capital without superior collaboration. samelessly visulaize quality intellectualcapital <br>holistically pontificate installed base portols after maintainable products</p>
+  
+  <div class="cards">
+    
+    <div class="card">
+      <img src="img3.jpg">
+      <h3>Efficiently Unleash</h3>
+      <p>Collaboratively administrate empowered markets.</p>
+  </div>
+  
+  <div class="card">
+      <img src="img3.jpg">
+      <h3>Completely Synergize</h3>
+      <p>Dramatically maintain solutions without cross-media value.</p>
+  </div>
+  <div class="card">
+      <img src="img3.jpg">
+      <h3>Dynamically Procrastinate</h3>
+      <p>Professionally cultivate one-to-one customer service.</p>
+  </div>
+ </div>
+
+
+<div class="footer-section">
+  <div>
+      <div class="circle"></div>
+      <h3>Dynamically Procrastinate</h3>
+      <p>Collaboratively administrate empowered markets.</p>
+      <button>Procrastinate</button>
+  </div>
+  <div>
+      <div class="circle"></div>
+      <h3>Efficiently Unleash</h3>
+      <p>Dramatically maintain solutions without cross-media value.</p>
+      <button>Unleash</button>
+  </div>
+  <div>
+      <div class="circle"></div>
+      <h3>Completely Synergize</h3>
+      <p>Professionally cultivate one-to-one customer service.</p>
+      <button>Synergize</button>
+  </div>
+</div>
+
+<footer>
+  <p>Terms & Conditions | Privacy Policy | Contact</p>
+  <p>Copyright @ Example.com 2015</p>
+</footer>
+
 
 </body>
 </html>
